@@ -12,14 +12,16 @@ header{
     position: fixed;
     top: 0;
     left:0;
-    height:100px;
+    height:68px;
     width: 100%;
-    padding: 25px 50px;
+    padding-block: 8px;
+    padding-inline: 50px;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100; 
+    background-color:chartreuse;
 }
 .logo{
     font-size:25px;
@@ -130,4 +132,55 @@ header{
 }
 .margin-top{
     margin-top: 17px;
+}
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+.project{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding-block: 20px;
+    border-radius: 17px;
+    
+}
+.project img{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+}
+.projects-buttons{
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+.github{
+    padding-inline: 26px;
+    padding-block: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+.livedemo{
+     padding-inline: 26px;
+    padding-block: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+}
+.project h3{
+    margin-top: 10px;
 }
