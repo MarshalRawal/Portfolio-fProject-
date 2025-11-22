@@ -21,17 +21,19 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100; 
-    background-color:chartreuse;
+    background: #e8f1ff;
+
 }
 .logo{
     font-size:25px;
-    color: #ededed;
+    color:black;
+;
     text-decoration: none;
     font-weight: 600;
 }
 .navbar a {
     font-size: 18px;
-    color: #ededed;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -141,6 +143,7 @@ header{
    
 }
 .project{
+    margin-top: 20px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -183,4 +186,37 @@ header{
 }
 .project h3{
     margin-top: 10px;
+}
+.text-manage{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.p-exp{
+    font-size: 13px;
+}
+.exp-title{
+    font-weight: 600;
+}
+.inner-exp{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.outer-exp{
+    border: 2px solid white;
+    padding-inline:45px;
+    border-radius: 20px;
+    padding-block: 18px;
+    height: 300px;
+    margin-top: 26px;
+    margin-bottom: 78px;
+    
+}
+.explore-experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
