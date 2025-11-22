@@ -220,3 +220,28 @@ header{
     align-items: center;
     gap: 20px;
 }
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.contact-btn button{
+    color:#081b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-block:15px ;
+    padding-inline: 14px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.contact{
+    margin-block: 70px;
+}
+.text-center h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
