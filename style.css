@@ -1,0 +1,133 @@
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #081b29;
+    color: #ededed;
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    height:100px;
+    width: 100%;
+    padding: 25px 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+.logo{
+    font-size:25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    
+}
+.home-content{
+     max-width: 600px;
+     margin-top: 20px;
+}
+.home-content h1{
+   
+    font-size: 56px;
+    font-size: 700;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.home-content .btn-box{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    
+}
+.btn-box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    background-color: #00abf0;
+}
+.home-flex{
+    display: flex;
+}
+.home-flex img{
+    margin-top: 80px;
+    width: auto;
+    height: 450px; /* or any size you want */
+    object-fit: contain;
+}
+.text-center{
+    text-align: center;
+}
+.about-detail{
+    padding-inline: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail-container{
+    display: flex;
+}
+.experience{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline:26px ;
+    padding-block: 20px;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 350px;
+}
+.education{
+     border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline:26px ;
+    padding-block: 20px;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 350px;
+}
+.margin-top{
+    margin-top: 17px;
+}
